@@ -1,0 +1,73 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta + Predicción</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Encuesta para Predicción de Precio de Casas</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Algunas reglas para comenzar</span></div>
+        <div class="info-list">
+            <div class="info">1. Tendrás <span>3 minutos</span> para acabar el formulario.</div>
+            <div class="info">2. Escribir números decimales.</div>
+            <div class="info">3. Si desea agregar un número entero, Por ejemplo: 2. Deberá agregar de la siguiente forma: 2.0</div>
+            <div class="info">4. No puede responder ninguna pregunta una vez que se acaba el tiempo.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Salir</button>
+            <button class="continue">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Encuesta para predicción de precio de Vivienda</div>
+            <div class="timer">
+                <div class="time_left_txt">Tiempo restante</div>
+                <div class="timer_sec">180</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="textfield_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Siguiente Item</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Predicción de Precios</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="continue">Repetir</button>
+            <button class="quit">Salir</button>
+        </div>
+    </div>
+
+    <script src="static/scripts/items.js"></script>
+    <script src="static/scripts/script.js"></script>
+
+</body>
+</html>
