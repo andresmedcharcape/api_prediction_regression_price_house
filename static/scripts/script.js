@@ -146,7 +146,7 @@ function showResult(){
         body: JSON.stringify(data)
     }
 
-    const result = fetch('http://127.0.0.1:5000/api/regression/v1/predict/price',fetchJsonRequest).
+    const result = fetch('https://api-prediction-price-house.herokuapp.com/api/regression/v1/predict/price',fetchJsonRequest).
     then((response) => {
         response.json().then((result) => {
 

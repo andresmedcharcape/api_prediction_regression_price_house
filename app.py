@@ -25,7 +25,7 @@ def index():
 def test():
     response = {
         "status": 'success',
-        "message": 'Bienvenido al api de Detección de Movimiento de BBVA'
+        "message": 'Bienvenido al api de Predicción de Vivienda EE.UU'
     }
     return response,200
 
